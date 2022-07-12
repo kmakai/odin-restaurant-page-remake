@@ -27,9 +27,9 @@ header {
 }
 
 nav {
-  width: 25%;
+  /* max-width: 25%; */
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
 }
 
 /* HOME styles */

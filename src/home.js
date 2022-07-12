@@ -10,7 +10,7 @@ disc.textContent =
 disDiv.append(discTitle, disc);
 homeDiv.append(disDiv, imgDiv);
 
-homeDiv.className = "home"
+homeDiv.className = 'home';
 
 export default function loadHome() {
   return homeDiv;
