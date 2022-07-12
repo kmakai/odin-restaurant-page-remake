@@ -2,4 +2,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 1px solid lightblue;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
 }
