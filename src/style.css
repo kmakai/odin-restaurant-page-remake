@@ -32,7 +32,7 @@ nav {
   justify-content: space-between;
 }
 
-/* Styles for Home page */
+/* HOME styles */
 .home {
   margin-top: 15rem;
   display: grid;
@@ -51,4 +51,16 @@ nav {
 
 .home p {
   font-size: 1.8rem;
+}
+
+/* MENU styles */
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.menu h2 {
+  grid-column: 1 / -1;
 }
