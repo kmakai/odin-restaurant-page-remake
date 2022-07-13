@@ -39,6 +39,14 @@ nav {
 #contactlink {
   height: 100%;
   font-size: 2rem;
+  font-weight: bold;
+  padding: 1.4rem 2rem;
+}
+
+#homelink:hover,
+#menulink:hover,
+#contactlink:hover {
+  cursor: pointer;
 }
 
 /* HOME styles */
