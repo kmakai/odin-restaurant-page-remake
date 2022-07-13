@@ -9,6 +9,7 @@ function createMenuItem(Item, discription, cost) {
   const price = document.createElement('h5');
   price.textContent = cost;
   menuitem.append(price);
+  menuitem.className = "menu-item";
 
   return menuitem;
 }

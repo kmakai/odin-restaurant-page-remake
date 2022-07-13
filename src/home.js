@@ -8,6 +8,11 @@ discTitle.textContent = "Welcome to Binx's Cafe";
 disc.textContent =
   'the most cozy warm cafe in town. Come in to have yourself the best coffee and meet the cat binx.';
 disDiv.append(discTitle, disc);
+
+const img = document.createElement('img');
+img.className = "welcome-img"
+img.src = './images/welcome.png';
+imgDiv.append(img);
 homeDiv.append(disDiv, imgDiv);
 
 homeDiv.className = 'home';
