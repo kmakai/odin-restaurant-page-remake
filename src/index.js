@@ -5,7 +5,13 @@ import menu from './menu.js';
 import contacts from './contact.js';
 const content = document.querySelector('#content');
 
-
 content.append(header());
+
 const headerdiv = document.querySelector('.headr');
-console.log(headerdiv);
+const homelink = document.getElementById('homelink');
+const menulink = document.querySelector('#menulink');
+const contactlink = document.querySelector('#contactlink');
+
+homelink.addEventListener('click', () => {
+  console.log('clicked');
+});
