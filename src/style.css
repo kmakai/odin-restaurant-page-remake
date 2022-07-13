@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -7,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
@@ -33,6 +36,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  color: #ca8a04;
 }
 
 /* HEADER styles */
@@ -41,6 +49,7 @@ nav {
   display: flex;
   gap: 2rem;
   height: 100%;
+  color: #ca8a04;
 }
 
 #homelink,
@@ -69,6 +78,18 @@ nav {
   flex-direction: column;
   justify-content: center;
   gap: 2.5rem;
+}
+
+.home > div h2 {
+  font-size: 3rem;
+  font-style: italic;
+  width: 80%;
+  border-bottom: 1px solid #ca8a04;
+}
+
+.home > div p {
+  color: #a16207;
+  line-height: 1.5;
 }
 
 .home h2 {
@@ -102,17 +123,45 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 20vw;
+  width: 25vw;
 }
 
 .menu-item h3 {
   font-size: 2.4rem;
+  font-style: italic;
+  border-bottom: 2px solid #ca8a04;
 }
 
 .menu-item p {
   font-size: 2rem;
+  color: #a16207;
+  line-height: 1.2;
 }
 
 .menu-item h5 {
   font-size: 1.6rem;
+  color: #ca8a04;
+}
+
+/* CONTACTS styles */
+.contacts {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  gap: 3rem;
+}
+
+.contacts h2 {
+  font-size: 3rem;
+}
+
+.contacts div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+
+  font-size: 1.8rem;
+}
+.contacts div img {
+  width: 20rem;
 }

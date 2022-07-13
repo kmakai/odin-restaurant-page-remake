@@ -1,11 +1,13 @@
 export default function createContact() {
   const contacts = document.createElement('div');
-  const conTitle = document.createElement('h1');
-  conTitle.id = "contacts-title";
+  const conTitle = document.createElement('h2');
   conTitle.textContent = "Contacts";
   contacts.append(conTitle);
 
   const contactBinx = document.createElement('div');
+  const binxImg = document.createElement("img");
+  binxImg.src = "./images/binx.jpg";
+  contactBinx.append(binxImg);
   
   const binxInfo = document.createElement('p');
   binxInfo.textContent =
@@ -14,6 +16,9 @@ export default function createContact() {
   contactBinx.append(binxInfo);
 
   const contactBella = document.createElement('div');
+  const bellaImg = document.createElement("img");
+  bellaImg.src = "./images/binx.jpg";
+  contactBella.append(bellaImg);
  
   const bellaInfo = document.createElement('p');
   bellaInfo.textContent =

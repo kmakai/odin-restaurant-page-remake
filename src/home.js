@@ -6,7 +6,7 @@ const discTitle = document.createElement('h2');
 
 discTitle.textContent = "Welcome to Binx's Cafe";
 disc.textContent =
-  'the most cozy warm cafe in town. Come in to have yourself the best coffee and meet the cat binx.';
+  'The most cozy warm cafe in town. Come in to have yourself the best coffee and meet the cat binx.';
 disDiv.append(discTitle, disc);
 
 const img = document.createElement('img');
