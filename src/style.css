@@ -26,10 +26,19 @@ header {
   align-items: center;
 }
 
+/* HEADER styles */
 nav {
   /* max-width: 25%; */
   display: flex;
   gap: 2rem;
+  height: 100%;
+}
+
+#homelink,
+#menulink,
+#contactlink {
+  height: 100%;
+  font-size: 2rem;
 }
 
 /* HOME styles */

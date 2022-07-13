@@ -15,3 +15,11 @@ const contactlink = document.querySelector('#contactlink');
 homelink.addEventListener('click', () => {
   console.log('clicked');
 });
+
+menulink.addEventListener('click', () => {
+  console.log('clicked');
+});
+
+contactlink.addEventListener('click', () => {
+  console.log('clicked');
+});
