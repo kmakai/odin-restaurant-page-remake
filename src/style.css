@@ -146,12 +146,15 @@ nav {
 /* CONTACTS styles */
 .contacts {
   display: grid;
-  grid-template-rows: auto 1fr 1fr;
-  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 5rem;
+  align-items: center;
 }
 
 .contacts h2 {
   font-size: 3rem;
+  grid-column: 1 / -1;
 }
 
 .contacts div {
@@ -161,7 +164,14 @@ nav {
   width: 50%;
 
   font-size: 1.8rem;
+  color: #a16207;
 }
+
+.contact-info {
+  display: flex;
+}
+
 .contacts div img {
   width: 20rem;
+  height: 20rem;
 }
